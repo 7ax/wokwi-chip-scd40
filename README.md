@@ -1,5 +1,9 @@
 # Wokwi SCD40 CO2 Sensor Chip
 
+<p align="center">
+  <img src="board/board.svg" alt="SCD40 Board" width="160"/>
+</p>
+
 Sensirion SCD40 photoacoustic CO2/Temperature/Humidity sensor simulation for the [Wokwi](https://wokwi.com) simulator.
 
 ## Usage
