@@ -1,0 +1,31 @@
+{
+  "name": "SCD40",
+  "author": "7ax",
+  "pins": ["VCC", "GND", "SDA", "SCL"],
+  "controls": [
+    {
+      "id": "co2",
+      "label": "CO\u2082 (ppm)",
+      "type": "range",
+      "min": 400,
+      "max": 5000,
+      "step": 10
+    },
+    {
+      "id": "temperature",
+      "label": "Temp (\u00b0C)",
+      "type": "range",
+      "min": -10,
+      "max": 60,
+      "step": 0.1
+    },
+    {
+      "id": "humidity",
+      "label": "Humidity (%RH)",
+      "type": "range",
+      "min": 0,
+      "max": 100,
+      "step": 1
+    }
+  ]
+}
