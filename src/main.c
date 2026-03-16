@@ -91,8 +91,10 @@ static void prepare_serial_response(chip_state_t *chip) {
 
 static void prepare_data_ready_response(chip_state_t *chip) {
   if (chip->data_ready) {
+    // Lower 11 bits must be non-zero for libraries to detect "ready"
+    // (datasheet: ready when (word & 0x07FF) != 0)
     chip->response[0] = 0x80;
-    chip->response[1] = 0x00;
+    chip->response[1] = 0x01;
   } else {
     chip->response[0] = 0x00;
     chip->response[1] = 0x00;

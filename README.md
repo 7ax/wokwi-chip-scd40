@@ -54,7 +54,7 @@ The SCD40 uses a **command-based** I2C protocol (not register-based). The master
 
 All response data uses Sensirion's CRC8 (polynomial 0x31, init 0xFF) after every 2-byte word.
 
-Compatible with the [Adafruit SCD4x Arduino library](https://github.com/adafruit/Adafruit_SCD4x).
+Compatible with the [Sensirion SCD4x Arduino library](https://github.com/Sensirion/arduino-i2c-scd4x).
 
 ## Building
 
