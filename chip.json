@@ -1,6 +1,8 @@
 {
+  "version": 1,
   "name": "SCD40",
   "author": "7ax",
+  "docs": "https://github.com/7ax/wokwi-chip-scd40",
   "pins": ["VCC", "GND", "SDA", "SCL"],
   "controls": [
     {

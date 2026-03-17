@@ -1,4 +1,6 @@
 {
+  "name": "SCD40",
+  "svg": "board.svg",
   "pins": {
     "VCC": { "x": 15, "y": 94 },
     "GND": { "x": 30, "y": 94 },
