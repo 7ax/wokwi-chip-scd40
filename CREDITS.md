@@ -11,5 +11,4 @@
 
 - **Source:** Sensirion SCD4x Datasheet (https://sensirion.com/products/catalog/SCD40)
 - **License:** N/A (datasheet used as protocol reference only)
-- **What was used:** I2C command protocol specification, CRC8 algorithm parameters (poly=0x31, init=0xFF), temperature/humidity conversion formulas
-- **Modifications:** Protocol implemented as a Wokwi custom chip simulation in C. Measurement timing shortened (100ms initial vs 5000ms real) for simulation responsiveness.
+- **What was used:** I2C command protocol specification (all 20 commands from Table 9), CRC8 algorithm parameters (poly=0x31, init=0xFF), temperature/humidity conversion formulas, command execution times, state machine behavior
